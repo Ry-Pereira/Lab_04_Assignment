@@ -9,39 +9,39 @@
         <!--Defines the character encoding as UTF-8-->
         <meta charset= "UTF-8">
         <!--Sets viewpoert for devices of appropriate size-->
-        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <meta name="viewpoert" content="width=device-width, initial-scale=1.0">
         <!-- The title of the webpage that is in the browser tab-->
         <title>Practice 3 Assignment</title>
     <head>
-     <!--Defines the document's body, containing all of the HTML document content-->
+    <!--Defines the document's body, containing all of the HTML document content-->
     <body>
         <!--First header shows the main title of my profile-->
         <h1>JavaScript Password Checker</h1> 
 
-        <!--Divised section for the input password and input to gain from the user-->
+        <!--Divised section for User first password input-->
         <div>
-            <!--Label for the password input-->
+            <!--Label for the user first password input-->
             <label for="Password">User First Password </label>
-            <!--Input field for the password has a placeholder to let user know to put ina 8 character password-->
+            <!--Input field for retrieving the user first password input, with placeholder to let user know password must be of 8 characters-->
             <input type = "text" id = "user_first_password_input" placeholder="8 words at length" value = "">
         </div>
 
-        <!--Divised section for the input second password and input to gain from the user-->
+        <!--Divised section for User second password input-->
         <div>
-            <!--Label for the second password input-->
-            <label for="Second Password">User Second Password </label>
-            <!--Input field for the second password has a placeholder to let user know to put ina 8 character password-->
+            <!--Label for the user first password input-->
+            <label for="Verify Password">User Second Password </label>
+            <!--Input field for retrieving the user second password input, with placeholder to let user know password must be of 8 characters-->
             <input type = "text" id = "user_second_password_input" placeholder="Must match user password" value = "">
         </div>
 
-        <!--Divised section for the button to authentices the passwords when clicked on-->
+        <!--Divised section for buttont to execute the authenticates passwords action, also includes javascript to implement it-->
         <div>
-            <!--The button authentices the passwords when clicked on-->
+            <!--Button when clicked authenticates passwords-->
             <button onclick ="authenticatePasswords()">CheckPasswords</button>
+            <!--Javascript that executes the functionality to authenticated passwords-->
+            <script src="practice3.js"></script>
         </div>
-
-        <!--Links the practice3 javscript file-->
-        <script src="practice_3.js"></script>
+        
        
 
     </body>
