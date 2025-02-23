@@ -1,28 +1,47 @@
+<!-- This tag specifies the document type and version to be HTML-->
 <!DOCTYPE html>
+<!--This opens the HTML document and the language is set to English-->
 <html lang= "en">
+    <!--The Head section provides metadata and defined links-->
     <head>
+        <!--This linkes to the external practice1 CSS file to for styling of the HTML document-->
         <link rel = "stylesheet" href = "practice1.css">
+        <!--Defines the character encoding as UTF-8-->
         <meta charset= "UTF-8">
-        <meta name="viewpoert" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--Sets viewpoert for devices of appropriate size-->
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <!-- The title of the webpage that is in the browser tab-->
         <title>Practice 3 Assignment</title>
     <head>
+     <!--Defines the document's body, containing all of the HTML document content-->
     <body>
-        
-         <h1>JavaScript Password Checker</h1> 
+        <!--First header shows the main title of my profile-->
+        <h1>JavaScript Password Checker</h1> 
 
+        <!--Divised section for the input password and input to gain from the user-->
         <div>
+            <!--Label for the password input-->
             <label for="Password">User First Password </label>
-                <input type = "text" id = "user_first_password_input" placeholder="8 words at length" value = "">
+            <!--Input field for the password has a placeholder to let user know to put ina 8 character password-->
+            <input type = "text" id = "user_first_password_input" placeholder="8 words at length" value = "">
         </div>
+
+        <!--Divised section for the input second password and input to gain from the user-->
         <div>
-            <label for="Verify Password">User Second Password </label>
-                <input type = "text" id = "user_second_password_input" placeholder="Must match user password" value = "">
+            <!--Label for the second password input-->
+            <label for="Second Password">User Second Password </label>
+            <!--Input field for the second password has a placeholder to let user know to put ina 8 character password-->
+            <input type = "text" id = "user_second_password_input" placeholder="Must match user password" value = "">
         </div>
+
+        <!--Divised section for the button to authentices the passwords when clicked on-->
         <div>
+            <!--The button authentices the passwords when clicked on-->
             <button onclick ="authenticatePasswords()">CheckPasswords</button>
-            <script src="practice_3.js"></script>
         </div>
+
+        <!--Links the practice3 javscript file-->
+        <script src="practice_3.js"></script>
        
 
     </body>
